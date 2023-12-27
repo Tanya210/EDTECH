@@ -1,0 +1,214 @@
+
+.Signup-content{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.Signup-form-storage{
+    width: 50%;
+    min-height: 100vh;
+    background-color: rgb(2, 2, 15);
+    padding-left: 8%;
+    padding-top: 3%;
+    padding-right: 8%;
+}
+
+.Signup-img{
+    width: 50%;
+    min-height: 90vh;
+    background-color: rgb(2, 2, 15);
+}
+
+.Signup-img-container{
+    width: 90%;
+    height: 70vh;
+    padding: 5%;
+}
+
+.Signup-heading{
+    color: antiquewhite;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.Signup-desc1{
+    color: rgb(189, 186, 198);
+    font-size: 1rem;
+    padding-top: 3%;
+}
+
+.Signup-desc2{
+    color: rgb(17, 177, 205);
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.Signup-btns{
+    width: 60%;
+    height: 6.2vh;
+    border-radius: 0.5cm;
+    margin-top: 5%;
+    gap: 2%;
+    background-color: rgb(68, 68, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+.Signup-btn-student{
+    border: none;
+    outline: none;
+    border-radius: 0.5cm;
+    width: 48%;
+    height: 90%;
+    /* font-size: 1rem; */
+    color: antiquewhite;
+    background-color: transparent;
+    padding-top: 2%;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Signup-btn-instructor{
+    border: none;
+    outline: none;
+    border-radius: 0.5cm;
+    width: 48%;
+    height: 90%;
+    /* font-size: 1rem; */
+    color: antiquewhite;
+    background-color: transparent;
+    padding-top: 2%;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Visible{
+    background-color:  rgb(12, 12, 37);
+}
+
+.Signup-names{
+    display: flex;
+    margin-top: 5%;
+}
+.firstname{
+    color: white;
+}
+
+.firstname-input{
+    width: 92%;
+    height: 6vh;
+    border-radius: 0.1cm;
+    border: none;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: rgb(68, 68, 84);
+    font-size: 1rem;
+    color: antiquewhite;
+}
+
+.lastname{
+    color: antiquewhite;
+}
+
+.lastname-input{
+    width: 92%;
+    height: 6vh;
+    border-radius: 0.1cm;
+    border: none;
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 1rem;
+    color: antiquewhite;
+    background-color: rgb(68, 68, 84);
+}
+
+.Signup-email{
+    color: whitesmoke;
+    margin-top: 3%;
+}
+
+.Signup-email-container{
+    width: 66%;
+    height: 6vh;
+    border-radius: 0.1cm;
+    border: none;
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 1rem;
+    color: antiquewhite;
+    background-color: rgb(68, 68, 84);
+}
+
+.Signup-passwords{
+    display: flex;
+}
+
+.Signup-createpassword{
+    color: antiquewhite;
+}
+
+.Signup-confirmpassword{
+    color: antiquewhite;
+}
+
+.createpassword-container{
+    width: 92%;
+    height: 6vh;
+    border-radius: 0.1cm;
+    border: none;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: rgb(68, 68, 84);
+    font-size: 1rem;
+}
+
+.confirmpassword-container{
+    width: 92%;
+    height: 6vh;
+    border-radius: 0.1cm;
+    border: none;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: rgb(68, 68, 84);
+    font-size: 1rem;
+}
+
+.createpassword{
+    margin-top: 5%;
+}
+
+.confirmpassword{
+    margin-top: 5%;
+}
+
+.Signup-form-btn{
+    width: 70%;
+    height: 6vh;
+    background-color: yellow;
+    border: none;
+    border-radius: 0.1cm;
+    margin-top: 3%;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.Signup-form-googlebtn{
+    width: 70%;
+    height: 6vh;
+    border: none;
+    border-radius: 0.1cm;
+    margin-top: 3%;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: rgb(31, 29, 50);
+}

@@ -1,0 +1,96 @@
+.Navbar-storage{
+    width: 100%;
+    height: 11.8vh;
+    background-color: transparent;
+}
+
+.Navbar-image{
+    width: 100%;
+    height: 11.2vh;
+    margin-left: 80%;
+    padding: 1%;
+}
+
+.Navbar-content{
+    width: 30%;
+    height: 12vh;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+nav{
+    display: flex;
+}
+
+.Navbar-about{
+    margin-left: 7%;
+}
+
+.Navbar-contact{
+    margin-left: 7%;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Navbar-btn{
+    width: 30%;
+    height: 10.8vh;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.Navbar-login{
+    width: auto;
+    height: 7vh;
+    font-size: 1rem;
+    margin-right: 5%;
+    align-self: center;
+    background-color: rgb(22 29 41);
+    border-radius: 0.1cm;
+    border-color: rgb(34, 35, 36);
+    border-width: 1px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.Navbar-signup{
+    width: auto;
+    height: 7vh;
+    font-size: 1rem;
+    align-self: center;
+    background-color: rgb(22 29 41);
+    border-radius: 0.1cm;
+    border-color: rgb(34, 35, 36);
+    border-width: 1px;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.Navbar-Cart{
+    width: auto;
+    height: 7vh;
+    font-size: 1rem;
+    align-self: center;
+    background-color: rgb(22 29 41);
+    border-radius: 0.1cm;
+    border-color: rgb(34, 35, 36);
+    border-width: 1px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.Navbar-underline{
+    background-color: rgba(255, 255, 255, 0.359);
+    width: 85%;
+    margin: 0 auto;
+    height: 0.4vh;
+}
